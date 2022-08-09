@@ -71,7 +71,7 @@ C_INCLUDES =  \
 LINKER_SCRIPT = linker_script.ld
 #LINKER_SCRIPT = STM32F103R6Tx_FLASH.ld
 
-PREFIX =  C:\Users\Dzaja-PC\Downloads\Mikroprocesorski_sistemi\MIPS_Domaci_2021\GnuMcu_Toolchain\GNU MCU Eclipse\ARM Embedded GCC\8.3.1-1.1\bin
+PREFIX =  (ПУТАЊА ДО ФОЛДЕРА)\GnuMcu_Toolchain\GNU MCU Eclipse\ARM Embedded GCC\8.3.1-1.1\bin
 
 CC = $(PREFIX)/arm-none-eabi-gcc.exe -c
 AS = $(PREFIX)/arm-none-eabi-as.exe
